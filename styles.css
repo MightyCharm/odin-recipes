@@ -1,54 +1,57 @@
-
-body {
-    /* setting border*/
-    border: 1px solid;
- 
-
-    margin: 10px;
-    padding-left: 20px;
-    background-color: rgb(242, 236, 236);
-
-    
+* {
+    box-sizing: border-box;
 }
 
-a {
-    font-size: 25px;
-    text-decoration: none;
-    color: white;
+
+body { 
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    
+    
 }
 
 img {
-    /* adjust image size */
     height: auto;
     width: 40%;
-    /* center image */
-    
-    /*
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    */
 }
 
-h2, h3 {
-    margin: 0;
+/* index.html */
+.content-main {
+  text-align: center;
 }
 
-.ul-a li {
-    display: inline;
+.ul-main {
+    padding-left: 0px;
+}
+
+
+.a-main {
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(50, 50, 250);
+    color: white;
+    font-size: 20px;
+    width: 270px;
+    margin-bottom: 7px;
+    padding: 5px;
     border-radius: 4px;
-    background-color: rgb(21, 21, 220);
-    padding: 10px 5px 5px 5px; /* top right bottom left*/
+}
+
+
+.a-main:hover {
+    background-color: black;
+   
+}
+
+/* recipes.html */
+.content-recipes {
+    background-color: yellow;
+    width: 90%;
+    margin: 0 auto;
     
 }
 
-.ul-a li:hover {
-    background-color: rgb(171, 14, 14);
+.ul-recipes {
+    background-color: aqua;  
+    /*list-style-position: inside;*/
 }
-
-.h1-main {
-    text-align: center;
-}
-
-
-
