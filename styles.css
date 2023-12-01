@@ -1,14 +1,7 @@
+
 * {
     box-sizing: border-box;
     line-height: 1.2;
-}
-
-
-body { 
-    background-color: rgb(255, 255, 255);
-    border: 1px solid black;
-    
-    
 }
 
 img {
@@ -19,22 +12,26 @@ img {
 /* index.html */
 .content-main {
   text-align: center;
- 
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  margin: 10% 30% 30% 30%;
+  min-width: 400px;
 }
 
 .ul-main {
     padding-left: 0px;
+    list-style-type: none;
 }
 
 
 .a-main {
     display: inline-block;
     text-decoration: none;
-    background-color: rgb(77, 184, 255);
+    background-color: rgb(15, 120, 240);
     color: white;
     font-size: 20px;
     font-weight: bold;
-    width: 270px;
+    width: 280px;
     margin-bottom: 7px;
     padding: 5px;
     border-radius: 4px;
@@ -43,6 +40,8 @@ img {
 
 .a-main:hover {
     background-color: rgb(26, 163, 255);
+    font-size: 21px;
+    margin-bottom: 6px;
    
 }
 
@@ -50,7 +49,10 @@ img {
 .content-recipes {
     width: 50%;
     margin: 0 auto;
-    font-size: 19px;    
+    font-size: 19px; 
+    border: 1px solid black;  
+    padding: 20px; 
+    background-color: rgb(255, 255, 255)
 }
 
 .h1-recipes,
