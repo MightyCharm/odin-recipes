@@ -10,25 +10,32 @@ html, body {
 }
 
 /* index.html */
-.ul-main {
-    list-style: none;
-}
-
-.content-main {
-    background-color: rgb(234, 228, 228);
-    border: 1px solid black;
+.flexbox-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
+    background-color: rgb(234, 228, 228);
+    text-align: center;
+}
+
+.flex-item {
+
+    width: 350px;
 
 }
 
+.h1-main {
+    
+}
+
 .ul-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    list-style: none;
     padding: 0;
+}
+
+.ul-main li {
+   margin: 10px;
 }
 
 .a-main {
@@ -37,11 +44,15 @@ html, body {
     color: white;
     text-decoration: none;
     font-size: 21px;
+    display: inline-block;
+    width: 90%;
+
+
 }
 
 .a-main:hover {
     background-color: rgb(78, 78, 255);
-
+    box-shadow: 3px 3px 15px #757171;
 }
 
 
